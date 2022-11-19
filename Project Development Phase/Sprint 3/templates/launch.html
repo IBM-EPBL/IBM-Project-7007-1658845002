@@ -56,7 +56,7 @@
 
   body
   {
-      background-image: url("https://img3.goodfon.com/wallpaper/nbig/a/af/ruki-znaki-steny.jpg");
+      background-image: url("https://image.shutterstock.com/image-photo/multiple-womans-hand-gestures-isolated-260nw-732833362.jpg");
       background-size: cover;
   }
   
@@ -67,9 +67,9 @@
         left: 0px;
         right: 0px;
         position: fixed;
-        background-color: rgb(10, 102, 109) ;
+        background-color: rgb(40, 15, 109) ;
         color: black;
-        box-shadow: 0px 8px 4px grey;
+        box-shadow: 0px 8px 4px black;
         overflow: hidden;
         padding-left:20px;
         font-family: 'Josefin Sans';
@@ -80,7 +80,7 @@
       }
       .topnav {
     overflow: hidden;
-    background-color: #056959;
+    background-color: #051945;
   }
   
   .topnav-right a {
@@ -98,7 +98,7 @@
   }
 
   .topnav-right a:hover {
-    background-color: rgb(181, 228, 236);
+    background-color: rgb(255, 255, 255);
     color: rgb(6, 27, 36);
   }
   
@@ -285,13 +285,13 @@
   <br>
   
     <div1 style=""><h1><font color="Black" size="6" font-family="Roboto">Hand Gesture Recognition</h1><br>
-    <p><i><font color="Black" size="4" fonr-family="sans-serif"></i>Provide an image for which you want to perform various operations</p>
+    <p><i><font color="Black" size="4" fonr-family="sans-serif"></i>Choose an image for which you want to perform various operations</p>
     <br>
           <div>
             <h4>Upload Image Here</h4>
         <form action = "http://localhost:5000/" id="upload-file" method="post" enctype="multipart/form-data">
           <label for="imageUpload" class="upload-label">
-            Choose...
+            Choose an image
           </label>
           <input type="file" name="image" id="imageUpload" accept=".png, .jpg, .jpeg,.pdf">
         </form>
